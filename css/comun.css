@@ -1,0 +1,1392 @@
+@font-face{
+font-family:'Calibri';
+src: url('font/calibri.ttf')   format('truetype');
+}
+@font-face{
+font-family:'Calibri-italic';
+src: url('font/calibrii.ttf')   format('truetype');
+}
+@font-face{
+font-family:'Calibri-bold';
+src: url('font/calibrib.ttf')   format('truetype');
+}
+@font-face{
+font-family:'Calibri-z';
+src: url('font/calibriz.ttf')   format('truetype');
+}
+
+body{
+    font-family:'Calibri';
+    font-size:13px;
+    color:#666666;
+    background: url('../img/fnd/backMain.jpg');
+}
+a{
+    cursor: pointer;
+    text-decoration:none;
+    color: #1F85B7;
+}
+a:hover{
+    text-decoration: underline;
+}
+.clearfix{
+    clear: both;
+}
+h1{
+    color: #0099FF;
+    font-size: 30px;
+    margin: 0;
+    font-family: 'Calibri-bold';
+}
+h2{
+    color: #0099FF;
+    font-family: 'Calibri-bold';
+    font-size: 23px;
+    padding: 16px 0 0;
+}
+.boxWhite{
+    background: white;
+    -webkit-box-shadow:  1px 1px  1px #D8D8D8;
+    box-shadow:  1px 1px  1px #D8D8D8;
+    padding: 20px 30px;
+}
+#Wrapheader{
+    text-align: center;
+    background: url('../img/fnd/bakHeader.png');
+    background-repeat: repeat-x;
+    height: 100px;
+}
+#header{
+    margin: 0 auto;
+    width: 1010px;
+    position: relative;
+}
+#header a#logo{
+    background: url('../img/btn/logo.png');
+    width: 303px;
+    height: 76px;
+    display: inline-block;
+    position: absolute;
+    top: 7px;
+    left: 16px;
+}
+#header #Menuheader{
+    position: absolute;
+    top: 35px;
+    right: 44px;
+}
+#header #Menuheader li{
+    float: left;
+    margin: 0 8px;
+}
+#header #Menuheader li a.linkHead{
+    background: url("../img/btn/btnHeader.png") no-repeat scroll 0 -37px transparent;
+    display: inline-block;
+    font-family: 'Calibri-bold';
+    font-size: 15px;
+    height: 23px;
+    padding: 11px 0;
+    width: 127px;
+}
+#header #Menuheader li.last{
+    background: url("../img/btn/btnHeader.png") repeat scroll 0 0 transparent;
+    color: #333333;
+    display: inline-block;
+    font-size: 22px;
+    padding: 7px 10px 7px 34px;
+    width: 118px;
+}
+.Main{
+    width: 970px;
+    padding:20px 20px;
+    margin: 0 auto;
+}
+
+#SearchHome{
+    width: 421px;
+    padding: 2px 25px;
+    float: left;
+}
+#SearchHome h1{
+    color: #004063;
+    font-size: 24px;
+    margin: 0;
+    padding: 24px 20px;
+}
+#SearchHome p{
+    font-size: 16px;
+    padding: 20px 10px;
+}
+#SearchHome .wrapSearch li{
+    padding: 5px 10px
+}
+#SearchHome .wrapSearch label{
+    display: inline-block;
+    float: left;
+    font-family: 'Calibri-bold';
+    font-size: 16px;
+    padding: 12px 20px 16px 0;
+    width: 81px;
+}
+
+#SearchHome .wrapSearch .wrapInput{
+    width: 300px;
+    height: 37px;
+    background: url('../img/fnd/backText.png');
+    display: inline-block;
+    background-repeat: no-repeat;
+}
+#SearchHome .wrapSearch input.large{
+    border: medium none;
+    margin: 7px;
+    padding: 3px 5px;
+    width: 240px;
+}
+#SearchHome .wrapSearch input.BusPaq{
+    background: url("../img/btn/busPaqAma.png") repeat scroll 0 0 transparent;
+    border: medium none;
+    height: 46px;
+    margin: 7px auto;
+    width: 201px;
+    cursor: pointer;
+}
+#SearchHome .wrapSearch li.lastbutton{
+    text-align: center;
+}
+
+.sliderPromo{
+    float: left;
+    height: 344px;
+    margin-left: 40px;
+    width: 457px;
+}
+#WrapMenuReg {
+    background: none repeat scroll 0 0 white;
+    margin: 20px auto;
+    float: left;
+    width: 909px;
+}
+#WrapMenuReg h2{
+    color: #333333;
+    font-family: 'Calibri-bold';
+    font-size: 20px;
+    padding: 10px 20px 0;
+}
+#MenuRegion{
+    display: inline-block;
+    margin: 10px 49px 5px 0;
+}
+#MenuRegion li{
+    float: left;
+}
+#MenuRegion li a.imgLink{
+    display: inline-block;
+    background: url('../img/btn/menuRegion.png');
+    width: 172px;
+    height: 145px;
+}
+#MenuRegion  a#region1{
+    background-position: 0 0;
+}
+#MenuRegion  a#region1:hover{
+    background-position: -199px 0;
+}
+#MenuRegion  a#region2{
+    background-position: 0 -160px;
+}
+#MenuRegion  a#region2:hover{
+    background-position: -199px -160px;
+}
+#MenuRegion  a#region3{
+    background-position: -23px -302px;
+}
+#MenuRegion  a#region3:hover{
+    background-position: -222px -302px;
+}
+#MenuRegion  a#region4{
+    background-position: -20px -480px;
+}
+#MenuRegion  a#region4:hover{
+    background-position: -220px -480px;
+}
+#MenuRegion  a#region5{
+    background-position: -25px -642px;
+}
+#MenuRegion  a#region5:hover{
+    background-position: -224px -642px;
+}
+#MenuRegion .textLink{
+    color: #1F85B7;
+    display: block;
+    font-size: 16px;
+    text-align: center;
+}
+#MenuRegion li a.imgLink:hover{
+    display: inline-block;
+    background: url('../img/btn/menuRegion.png');
+}
+#WrapPaquete{
+    float: left;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+#WrapPaquete ul{
+    display: inline-block;
+}
+#WrapPaquete ul li{
+    float: left;
+    margin: 12px;
+    width: 208px;
+}
+#WrapPaquete ul li small{
+    color: #B3B3B3;
+    font-size: 14px;
+    display: block;
+    padding-left: 10px;
+}
+#WrapPaquete ul li b{
+    color: #333333;
+    font-size: 18px;
+    padding-left: 10px;
+}
+#WrapPaquete ul li span{
+    background: url("../img/fnd/MarcoFotoCh.png") no-repeat scroll -5px 0 transparent;
+    display: inline-block;
+    height: 165px;
+    width: 223px;
+}
+#WrapPaquete ul li p{
+    padding: 2px 7px;
+    width: 215px;
+}
+#WrapPaquete ul li a{
+    margin-top: 3px;
+    padding-left: 7px;
+    font-size: 14px;
+}
+#WrapArmarPaq{
+    background: none repeat scroll 0 0 #F7F1BF;
+    border: 4px solid white;
+    float: left;
+    text-align: center;
+    width: 465px;
+}
+#WrapArmarPaq b{
+    color: #0099FF;
+    display: block;
+    font-size: 25px;
+    padding: 8px 0 0;
+    text-align: center;
+}
+#WrapArmarPaq span{
+    display: block;
+    margin: 0 0 10px;
+    padding: 5px 0;
+    font-size: 14px;
+}
+#WrapArmarPaq a{
+   background: url('../img/btn/ArmaTuPaquete.png');
+   width: 139px;
+   height: 40px;
+   display: inline-block;
+}
+#WrapNews{
+    background: url("../img/fnd/backNews.png") repeat scroll 0 0 transparent;
+    float: left;
+    height: 122px;
+    margin-left: 34px;
+    width: 460px;
+    text-align: center;
+}
+#WrapNews p{
+    background: url("../img/icn/sobre.png") no-repeat scroll 30px 3px transparent;
+    color: #333333;
+    font-family: 'Calibri-bold';
+    font-size: 18px;
+    margin: 15px auto;
+    padding-left: 47px;
+}
+#WrapNews label{
+    float: left;
+    font-size: 26px;
+    line-height: 58%;
+    *line-height: 80%;
+    text-align: center;
+    text-transform: uppercase;
+    width: 73px;
+    font-family: 'Calibri-bold';
+}
+#WrapNews label small{
+    font-size: 11px;
+    font-family: 'Calibri';
+}
+#WrapNews .wrapInput{
+    width: 265px;
+    height: 37px;
+    background: url('../img/fnd/backText.png');
+    display: inline-block;
+    background-repeat: no-repeat;
+    text-align: left;
+}
+#WrapNews input#txtMailNews{
+    border: medium none;
+    margin: 5px 5px 0;
+    padding: 5px 0;
+    width: 249px;
+}
+#WrapNews input#btnMailNews{
+    background: url("../img/btn/Enviar.png");
+    background-repeat: no-repeat;
+    background-position: 0 2px;
+    width: 92px;
+    height: 42px;
+    border: none;
+    cursor: pointer;
+}
+#wrapFormaPago{
+    background: url("../img/fnd/backPagoL.png") repeat scroll 0 0 transparent;
+    display: inline-block;
+    height: 42px;
+    margin: 25px 5px;
+    width: 959px;
+}
+#wrapFormaPago #TipoPago{
+    float: left;
+    margin-right: 60px;
+}
+#wrapFormaPago #TipoPago li{
+    float: left;
+    background: url('../img/icn/vinieta.png');
+    background-repeat: no-repeat;
+    background-position: 0 12px;
+    padding-left: 20px;
+    font-size: 14px;
+    font-family: 'Calibri-bold';
+    margin-left: 15px;
+    padding-top: 12px;
+}
+#wrapFormaPago #TipoPago li.tit, #wrapFormaPago span.tit{
+    color: #0099FF;
+    font-size: 20px;
+    background: none;
+    padding-left: 0;
+    padding-top: 7px;
+    float: left;
+    font-family: 'Calibri-bold';
+}
+#wrapFormaPago img{
+    padding: 7px 10px;
+}
+#wrapfooter{
+    background: url('../img/fnd/backFooter.png');
+    height: 149px;
+    border-top: 2px solid white;
+    text-align: center;
+}
+#footer{
+    position: relative;
+    width: 1010px;
+    margin: 0 auto;
+    height: 149px;
+}
+#footer #social{
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    width: 225px;
+}
+#footer #social span{
+    font-size: 14px;
+    font-family: 'Calibri-bold';
+    color: #333333;
+    display: block;
+}
+#footer #social ul{
+    display: inline-block;
+    margin: 2px 10px;
+}
+#footer #social ul li{
+    float: left;
+    margin: 5px 4px;
+}
+#footer #social ul li a{
+    background: url('../img/icn/icnSocial.png');
+    width: 39px;
+    height: 39px;
+    display: inline-block;
+}
+
+#footer #social ul li#ML a{
+    background-position: 0 0;
+}
+#footer #social ul li#ML a:hover{
+    background-position: 0px -39px;
+}
+#footer #social ul li#FB a{
+    background-position: -39px 0;
+}
+#footer #social ul li#FB a:hover{
+    background-position: -39px -39px;
+}
+#footer #social ul li#TW a{
+    background-position: -79px 0;
+}
+#footer #social ul li#TW a:hover{
+    background-position: -79px -39px;
+}
+#footer #social ul li#GP a{
+    background-position: -120px 0;
+}
+#footer #social ul li#GP a:hover{
+    background-position: -120px -39px;
+}
+#footer #MenuFooter{
+    position: absolute;
+    top:20px;
+    left: 30px;
+}
+#footer #MenuFooter li, #footer #datosAgencia li{
+    float: left;
+    padding: 0 3px;
+}
+#footer #MenuFooter li.tit , #footer #datosAgencia li.tit{
+    width: 200px;
+    color: #0099FF;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-family: 'Calibri-bold';
+    text-align: left;
+}
+#footer #datosAgencia{
+    position: absolute;
+    top:40px;
+    left: 30px;
+    padding-top: 10px;
+}
+#footer p{
+    position: absolute;
+    top: 80px;
+    left: 30px;
+    font-size: 13px;
+    color: #808080;
+}
+#footer #shareSM{
+    border-top: 1px solid white;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    text-align: left;
+    width: 1010px;
+}
+#footer #shareSM span{
+    background: url("../img/fnd/backShare.png") repeat scroll 0 0 transparent;
+    color: white;
+    float: left;
+    font-family: 'Calibri-bold';
+    font-size: 14px;
+    height: 15px;
+    padding: 9px;
+    width: 269px;
+    margin-left: 20px;
+}
+#footer #shareSM small{
+    text-transform: uppercase;
+    color: #808080;
+    float: right;
+    padding: 8px 20px;
+}
+
+
+/* Paquete */
+
+.colMin{
+    width: 250px;
+    float: left;
+}
+.marLeft{
+    margin-right: 61px;
+}
+.colMax{
+    width: 650px;
+    float: left;
+}
+#Head{
+    margin-bottom: 10px;
+    padding: 10px 20px;
+}
+#Head h1{
+    color: #333333;
+    float: left;
+    font-family: 'Calibri-bold';
+    font-size: 36px;
+    padding: 0px 10px;
+    width: 411px;
+}
+#Head h1 span, #Head label{
+    color: #999999;
+    display: block;
+    font-size: 16px;
+    font-family: 'Calibri';
+}
+#Head label{
+    border-left: 1px solid #CCCCCC;
+    color: #999999;
+    float: left;
+    font-family: 'Calibri';
+    font-size: 16px;
+    padding-top: 5px;
+    text-align: center;
+    width: 158px;
+}
+#Head label select{
+    display: block;
+    margin: 10px auto;
+     width: 86px;
+}
+.wrapPaq{
+    margin: 30px 0;
+    padding: 0 10px;
+    position: relative;
+}
+.wrapPaq img{
+    float: left;
+    padding: 8px 15px 8px 0;
+}
+.wrapPaq span.oferta{
+    background: url("../img/fnd/backPromo.png") no-repeat scroll 0 0 transparent;
+    color: #333333;
+    display: inline-block;
+    font-family: 'Calibri-bold';
+    font-size: 18px;
+    height: 67px;
+    left: 30px;
+    padding-top: 8px;
+    position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+    top: 0;
+    width: 104px;
+}
+.wrapPaq span.oferta small{
+     color: #4D4D4D;
+      display: inline-block;
+}
+.wrapPaq h3{
+    float: left;
+    font-size: 32px;
+    color: #333333;
+}
+.wrapPaq h3 small{
+    display: block;
+    font-size: 22px;
+    color: #999999;
+}
+.wrapPaq .PaqSer{
+    float: left;
+    padding: 10px 11px 0 0;
+}
+.wrapPaq .PaqSer li{
+    float: left;
+    color: #999999;
+}
+.wrapPaq .PaqSer li#Duracion{
+    font-size: 36px;
+    color: #333;
+}
+.wrapPaq .PaqSer li#Duracion small{
+    font-size: 12px;
+}
+.wrapPaq .PaqSer li.Serv{
+    width: 41px;
+    height: 30px;
+    display: inline-block;
+    background: url('../img/icn/incServicios.png');
+}
+.wrapPaq .PaqSer li.Serv#Aereo{
+    background-position:  0 0px;
+}
+.wrapPaq .PaqSer li.Serv#Hotel{
+    background-position:  -45px 0px;
+}
+.wrapPaq .PaqSer li.Serv#Traslado{
+    background-position:  -84px 0px;
+}
+.wrapPaq .PaqSer li.Serv#Asistencia{
+    background-position:  -118px 0px;
+}
+.wrapPaq p{
+    float: left;
+    width: 330px;
+    margin-bottom: 10px;
+    border-top: 1px dotted #bababa;
+    padding-top: 10px;
+    color: #999999;
+}
+.wrapPaq .Precio{
+    color: #333333;
+    float: left;
+    font-size: 24px;
+    padding-bottom: 8px;
+}
+.wrapPaq .Precio small{
+    font-size: 16px;
+    color: #999999;
+}
+.wrapPaq .btn-det-paquete{
+    background: url("../img/btn/btnConsultar.png") no-repeat scroll 0 0 transparent;
+    bottom: 0;
+    display: inline-block;
+    height: 35px;
+    position: absolute;
+    right: 10px;
+    width: 118px;
+    padding-bottom: 8px;
+}
+.paginador{
+    border-bottom: 1px solid #d4d4d4;
+    border-top: 1px solid #d4d4d4;
+    margin-top: 30px;
+    text-align: center;
+    padding: 3px 0;
+}
+.paginador ul{
+    text-align: center;
+}
+.paginador ul li{
+    display: inline;
+    margin: 3px auto;
+}
+.paginador ul li a{
+    background: none repeat scroll 0 0 #F2F2F2;
+    border: 1px solid #1F85B7;
+    display: inline-block;
+    padding: 6px 11px;
+    text-align: center;
+}
+.paginador ul li a.active, .paginador ul li a:hover {
+    background: #1F85B7;
+    color: white;
+}
+.buscadorC{
+     padding: 5px 16px;
+     margin-bottom: 30px;
+}
+.buscadorC label{
+    display: block;
+    font-size: 16px;
+    font-family: 'Calibri-bold';
+    color: #666666;
+    margin-top: 22px;
+    text-align: left;
+    padding-left: 7px;
+}
+.buscadorC .wrapInput{
+    background: url('../img/fnd/BackInput.png');
+    background-repeat: no-repeat;
+    width: 215px;
+    height: 37px;
+    display: inline-block;
+}
+.buscadorC ul li small{
+    text-align: left;
+}
+.buscadorC .wrapInput input{
+    border: medium none;
+    height: 20px;
+    margin: 5px;
+    padding: 2px 3px;
+    width: 200px;
+}
+.buscadorC input.BusPaq{
+    background: url("../img/btn/btnBuscar.png") no-repeat scroll 0 0 transparent;
+    border: medium none;
+    height: 45px;
+    margin: 12px auto 5px 8px;
+    width: 200px;
+    cursor: pointer;
+}
+/* Buscador por Geo */
+
+.buscadorGeo{
+    padding: 0 16px;
+    margin-bottom: 30px;
+}
+.buscadorGeo ul.region{
+    padding: 20px 10px;
+}
+.buscadorGeo ul.region li{
+    padding:5px;
+}
+.buscadorGeo ul.region a{
+    font-size: 16px;
+    font-family:'Calibri-bold';
+    color: #999999;
+    display: block;
+}
+.buscadorGeo ul.subRegion{
+    padding-left: 20px;
+    display: inline-block;
+}
+.buscadorGeo ul.subRegion li{
+    height: 20px;
+}
+.buscadorGeo ul.subRegion li a{
+    color: #1F85B7;
+    font-family:'Calibri';
+    padding-left: 5px;
+    border-bottom: 1px dashed #1F85B7;
+    display: block;
+}
+.buscadorGeo ul.subRegion li a:hover{
+    color: #FFF;
+    border-bottom: 1px solid transparent;
+    background: #1F85B7;
+}
+.buscadorGeo ul.region li span{
+    background: url('../img/icn/Geo.png');
+    width: 11px;
+    height: 19px;
+    display: inline-block;
+    padding: 0 5px;
+    background-repeat: no-repeat;
+}
+
+/* Buscador arma tu paquete */
+
+.buscadorA{
+    padding: 0 16px;
+    margin-bottom: 30px;
+}
+.buscadorA p{
+    padding: 10px 5px;
+}
+.buscadorA label{
+    display: block;
+    font-size: 16px;
+    font-family: 'Calibri-bold';
+    color: #666666;
+    margin-top: 10px;
+    text-align: left;
+    padding-left: 7px;
+}
+.buscadorA .wrapInput{
+    background: url('../img/fnd/BackInput.png');
+    background-repeat: no-repeat;
+    width: 215px;
+    height: 37px;
+    display: inline-block;
+}
+.buscadorA .wrapInput input{
+    border: medium none;
+    height: 20px;
+    margin: 5px;
+    padding: 2px 3px;
+    width: 200px;
+}
+.buscadorA .wrapInput input{
+    border: medium none;
+    height: 20px;
+    margin: 5px;
+    padding: 2px 3px;
+    width: 200px;
+}
+.buscadorA #btnArmaP{
+    background: url('../img/btn/btnBuscarArmar.png');
+    width: 172px;
+    height: 45px;
+    display: inline-block;
+    border: none;
+    margin: 10px 21px;
+    cursor: pointer;
+}
+/* Promo Banco */
+.promoBanco{
+    padding:16px;
+    margin-bottom: 2px;
+}
+.tarjetas{
+     padding:9px;
+}
+.Metodo-de-pagos{
+    background: url('../img/fnd/backPagoS.png');
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    padding: 5px 3px;
+    text-align: center;
+    margin-top: 30px;
+    height: 82px;
+}
+.Metodo-de-pagos span{
+    font-size: 16px;
+    padding: 2px 0 0;
+    margin: 0;
+}
+.Metodo-de-pagos ul{
+    display: inline-block;
+    padding: 8px 0;
+    
+}
+.Metodo-de-pagos li{
+    float: left;
+    background: url('../img/icn/vinieta.png');
+    background-repeat: no-repeat;
+    background-position: 3px 4px;
+    padding-left: 20px;
+    font-family: 'Calibri-bold';
+    margin-left: 8px;
+    font-size: 14px;
+    color: #333333;
+}
+
+/* Detalle Paquete */
+#ShowPaq{
+    padding: 20px 0;
+    position: relative;
+}
+#ShowPaq h1{
+    border-bottom: 1px solid #EBEBEB;
+    color: #333333;
+    font-family: 'Calibri-bold';
+    font-size: 35px;
+    margin: 0 5px 20px;
+    padding-top: 12px;
+}
+#ShowPaq h1 small{
+    display: block;
+    font-size: 16px;
+    color: #999999;
+}
+#ShowPaq .infoPaq{
+    float: left;
+}
+#ShowPaq .infoPaq li{
+    float: left;
+}
+#ShowPaq .infoPaq li.tit {
+    color: #999999;
+    font-size: 14px;
+    padding: 3px;
+}
+#ShowPaq #Duracion, #ShowPaq #Precio{
+    font-size: 35px;
+    margin: 5px 25px;
+}
+#ShowPaq #Duracion small, #ShowPaq #Precio small{
+    font-size: 13px;
+    background: none;
+}
+#ShowPaq #Servicios li.icon{
+    background: url('../img/icn/sprServicios.png');
+    width: 44px;
+    height:33px;
+}
+#ShowPaq #Servicios{
+    border-left: 1px dotted;
+    border-right: 1px dotted;
+    padding: 3px 10px;
+}
+#ShowPaq #Servicios li#Aereo{
+    background-position: 0 3px;
+}
+#ShowPaq #Servicios li#Hotel{
+    background-position: -41px 3px;
+}
+#ShowPaq #Servicios li#Traslado{
+    background-position: -79px 3px;
+}
+#ShowPaq #Servicios li#Asistencia{
+    background-position: -115px 3px;
+}
+#ShowPaq #FotoPaq{
+    background: url('../img/fnd/backFotoPaq.png');
+    width: 632px;
+    height: 316px;
+    margin: 7px;
+}
+#backLink{
+    color: #1F85B7;
+    font-size: 14px;
+    position: absolute;
+    right: 10px;
+    top: 5px;
+}
+.boxFoto , .boxDescripcion{
+    margin-bottom: 30px;
+    padding:20px 0;
+}
+.boxFoto h1{
+    padding-left: 20px;
+}
+.boxDescripcion{
+    padding: 20px;
+}
+.boxDescripcion p{
+    padding: 10px 0;
+    font-size: 14px;
+}
+.boxDescripcion #incluye{
+    padding: 5px 5px 20px;
+}
+.boxDescripcion cite{
+    font-size: 12px;
+    color: #B3B3B3;
+}
+.boxDescripcion #incluye li{
+    color: #333333;
+}
+.boxDescripcion #incluye li span{
+    background: url('../img/icn/icnVertServ.png');
+    width: 43px;
+    height: 25px;
+    display: inline-block;
+}
+.boxDescripcion #incluye li span.Aereos{
+    background-position: 0px 5px;
+}
+.boxDescripcion #incluye li span.Hotel{
+    background-position: 0px -22px;
+}
+.boxDescripcion #incluye li span.Traslados{
+    background-position: 0px -49px;
+}
+.boxDescripcion #incluye li span.Asistencia{
+    background-position: 0px -76px;
+}
+.boxConsulta h2{
+    font-size: 20px;
+    font-family: 'Calibri-bold';
+    color: #333333;
+    padding: 20px;
+}
+.boxConsulta h2 small{
+    color: #999999;
+    font-family: 'Calibri';
+}
+.boxConsulta #listDate{
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.boxConsulta #listDate li{
+    padding: 3px 0;
+}
+.boxConsulta #listDate li input{
+    margin: 0 5px;
+}
+.boxConsulta #otraFecha{
+    float: left;
+    margin: 15px 0 0 100px;
+    width: 200px;
+}
+.boxConsulta #otraFecha input{
+    display: block;
+}
+.boxCele{
+    background: #EDF4F4;
+    margin: 0 10px 30px;
+    padding: 20px;
+}
+h3.titForm{
+    font-size: 16px;
+    color: #666666;
+    margin-bottom: 11px;
+}
+h3.titForm span{
+    width: 36px;
+    height: 32px;
+    display: inline-block;
+    background: url('../img/icn/Pasos.png');
+    background-repeat: no-repeat;
+    margin: 0 5px
+}
+h3.titForm .Paso1{
+    background-position: 0 -3px;
+}
+h3.titForm .Paso2{
+    background-position: 0 -39px;
+}
+h3.titForm .Paso3{
+    background-position: 0 -73px;
+}
+.boxCele table{
+    background: none repeat scroll 0 0 white;
+    color: #999999;
+    font-size: 14px;
+    margin-left: 10px;
+    width: 95%;
+}
+.boxCele table tr#head{
+    border-bottom: 1px solid #0099FF;
+}
+.boxCele table th{
+     color:#0099FF;
+     font-size: 13px;
+     font-family: 'Calibri-bold';
+     text-align: left;
+     padding: 7px 3px;
+}
+.boxCele table td{
+    padding: 3px;
+}
+.boxCele table td b{
+    color: #4d4d4d;
+}
+.boxCele table td strong{
+    color: #333333;
+    font-size: 17px;
+    font-family: 'Calibri-bold';
+}
+.boxCele label{
+    color: #4d4d4d;
+    font-size: 13px;
+    font-family: 'Calibri-bold';
+}
+.boxConsulta .boxCele ul.boxDatos{
+    float: left;
+    margin-bottom: 40px;
+    padding-left: 10px;
+}
+.boxConsulta .boxCele ul.boxDatos li{
+    margin: 0 25px 0 10px;
+    float: none;
+}
+ul.boxDatos li label, .boxCele #textInput label{
+    display: block;
+    margin: 20px 0 7px 3px;
+}
+ul.boxDatos li label span, .boxCele #textInput label span{
+    color: #d3d3d3;
+}
+ul.boxDatos li .WrapInput, .boxCele #otraFecha .WrapInput{
+    background: url('../img/fnd/backInputForm.png');
+    display: inline-block;
+    width: 212px;
+    height: 42px;
+}
+ul.boxDatos li .WrapInput input, .boxCele #otraFecha .WrapInput input{
+    border: medium none;
+    margin: 10px;
+    padding: 3px;
+    width: 85%;
+}
+#textInput{
+    float: left;
+    width: 50%;
+}
+#textInput .WrapInput{
+    background: url('../img/fnd/backTextForm.png');
+    display: inline-block;
+    width: 278px;
+    height: 215px;
+}
+#textInput textarea{
+    border: medium none;
+    height: 195px;
+    margin: 10px;
+    width: 250px;
+}
+span.btnForm{
+    display: block;
+    padding-bottom: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+span.btnForm input{
+    background: url('../img/btn/BtnForm.png');
+    width: 153px;
+    height: 46px;
+    margin: 0 auto;
+    border: none;
+    cursor: pointer;
+}
+span.btnForm small{
+    display: block;
+    text-align: center;
+}
+
+/* Arma tu viaje */
+.boxAmarillo{
+    background: #F7F2C8;
+    border: 1px solid #F2B505;
+}
+#Aviso{
+    margin-bottom: 30px;
+}
+.boxAmarillo p{
+    padding: 10px;
+    font-size: 19px;
+}
+#form-arma{
+    padding: 20px 30px;
+}
+#form-arma p{
+    font-size: 14px;
+    padding: 30px 0 30px 0;
+}
+#form-arma ul.boxDatos{
+    display: inline-block;
+    margin-bottom: 30px;
+    margin-left: 50px;
+}
+#form-arma ul.boxDatos li{
+    float: left;
+    width: 50%;
+    height: 90px;
+}
+#form-arma ul.boxDatos li .WrapInputSmall{
+    background: url(../img/fnd/BackInputSmall.png);
+    width: 85px;
+    height: 36px;
+    display: block;
+}
+#form-arma ul.boxDatos li .WrapInputSmall select{
+    border: none;
+    margin: 9px;
+    padding: 3px;
+    width: 61px;
+}
+#form-arma ul.boxDatos li .width50{
+    width: 43%;
+    float: left;
+}
+#form-arma ul.boxDatos li .horizontal{
+
+}
+#form-arma ul.boxDatos li .horizontal input{
+    margin-right: 12px;
+    margin-top: 30px;
+}
+.WrapComentarios{
+    background: url('../img/fnd/backComentario.png');
+    width: 493px;
+    height: 82px;
+    display: block;
+}
+.WrapComentarios textarea{
+    width: 480px;
+    height: 70px;
+    margin: 5px;
+    border: none;
+}
+#form-arma span.btnForm{
+    float: left;
+    margin-top: 30px;
+    width: 100%;
+}
+
+
+/* Confirmacion */
+
+#Confirma{
+    padding: 20px 10px;
+}
+#Confirma #Aviso p{
+    margin: 5px;
+    font-size: 38px;
+    color: #9B670A;
+}
+#Confirma #Aviso p small{
+    margin: 5px;
+    font-size: 20px;
+    color: #4D4D4D;
+}
+.engage{
+    float: left;
+    margin: 0 0 20px;
+    width: 250px;
+}
+.engage b{
+    font-size: 18px;
+    color: #666666;
+}
+.engage ul{
+
+}
+.engage ul li{
+    margin: 2px;
+}
+.engage ul li a{
+    background:  url('../img/btn/btnSocial.png');
+    color: white;
+    display: block;
+    font-family: 'Calibri-bold';
+    font-size: 15px;
+    height: 33px;
+    padding: 9px 0 0 48px;
+    width: 161px;
+}
+.engage ul li a#Facebook{
+    background-position:  -9px -8px;
+}
+.engage ul li a#Twitter{
+    background-position:  -9px -50px;
+}
+.engage ul li a#Google{
+    background-position:  -9px -92px;
+}
+.engage ul li a#Facebook:hover{
+    background-position:  -221px -8px;
+}
+.engage ul li a#Twitter:hover{
+    background-position:  -221px -50px;
+}
+.engage ul li a#Google:hover{
+    background-position:  -221px -92px;
+}
+#Confirma #boxDato{
+    float: left;
+    width: 375px;
+}
+#Confirma p.dato{
+    padding: 13px;
+}
+#Confirma #back{
+    display: block;
+    text-align: center
+}
+.boxConsulta .boxGris{
+    background: #F7F7F7;
+    margin: 30px 0;
+}
+.boxConsulta .borSobre{
+    background: url("../img/fnd/backConsult.png") repeat scroll 16px -1px transparent;
+    display: block;
+    height: 10px;
+}
+.boxConsulta ul.boxDatos li{
+    float: left;
+    margin: 0 59px 0 10px;
+}
+.boxConsulta p{
+    color: #5B6970;
+    float: left;
+    font-size: 15px;
+    padding: 30px 0 0 51px;
+    width: 397px;
+}
+.boxConsulta img{
+    padding: 30px 4px 0;
+}
+.boxConsulta span.btnForm {
+    float: left;
+    padding-bottom: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+/* Contactenos */
+
+#Contactenos form{
+    padding: 0 20px;
+}
+#Contactenos ul.boxDatos li{
+    float: left;
+    margin: 0 26px 0 27px;
+}
+.DatosUtiles{
+    margin-bottom: 30px ;
+    padding: 20px;
+}
+.DatosUtiles p.boxAmarillo{
+    padding: 5px 5px 0;
+    line-height: 140%;
+    text-align: center;
+    margin: 20px 0 0;
+}
+.DatosUtiles p.boxAmarillo b{
+    line-height: 140%;
+    padding: 10px 5px;
+    text-align: center;
+    display: block;
+}
+.DatosUtiles #TelMail{
+    padding: 0 7px 20px;
+    font-size: 15px;
+}
+.DatosUtiles #TelMail a{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+.DatosUtiles h3{
+    color: #333333;
+    font-size: 18px;
+    padding: 5px 0 20px;
+}
+.DatosUtiles img{
+    padding:0 3px;
+}
+.DatosUtiles h4{
+    color: #1F85B7;
+    font-size: 18px;
+    padding: 5px 0px;
+}
+.DatosUtiles ul li{
+    padding: 3px;
+}
+.DatosUtiles ul li span{
+    background: url("../img/icn/icnSocial.png") no-repeat scroll 0 0 transparent;
+    float: left;
+    height: 40px;
+    width: 39px;
+    margin-right: 10px;
+}
+.DatosUtiles ul li span#FB{
+    background-position: -38px 1px;
+}
+.DatosUtiles ul li span#TW{
+    background-position: -80px 1px;
+}
+.DatosUtiles ul li span#GP{
+    background-position: -120px 1px;
+}
+.DatosUtiles ul li a{
+    display: block;
+    font-size: 15px;
+    padding: 13px 5px;
+    text-decoration: underline;
+    border-bottom: 1px solid transparent;
+}
+.DatosUtiles ul li a:hover{
+    background: #EAEAEA;
+    border-bottom: 1px solid #d1d1d1;
+}
+
+/* quienes somos */
+.boxQuienesSomos p{
+    padding: 20px;
+}
+
+.boxQuienesSomos p#ImgHead{
+    position: relative;
+    text-align: center;
+}
+.boxQuienesSomos p#ImgHead b{
+    background: white;
+    opacity: 0.90;
+    filter:alpha(opacity=80);
+    bottom: 47px;
+    color: #0099FF;
+    font-size: 30px;
+    left: 45px;
+    padding-left: 60px;
+    position: absolute;
+    text-align: left;
+    width: 440px;
+    z-index: 0;
+}
+.boxQuienesSomos p#ImgHead span{
+    background: url("../img/icn/5.png") no-repeat scroll 0 0 transparent;
+    bottom: 30px;
+    display: inline-block;
+    height: 96px;
+    left: -5px;
+    position: absolute;
+    width: 95px;
+    z-index: 1;
+}
+.boxQuienesSomos p b{
+    color: #333333;
+    font-size: 23px;
+    display: block;
+}
